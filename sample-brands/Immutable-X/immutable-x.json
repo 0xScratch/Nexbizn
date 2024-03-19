@@ -1,0 +1,19 @@
+{
+    "name": "Immutable",
+    "description": "Immutable is a blockchain gaming company that is creating a platform for trading digital assets.",
+    "image": "https://amber-random-peafowl-702.mypinata.cloud/ipfs/Qma8v8Q46RRNonUCQNsULuumSHAF5MKM55Zs75zkw4QGBm",
+    "attributes": [
+        {
+            "trait_type": "Category",
+            "value": "Blockchain Gaming"
+        },
+        {
+            "trait_type": "Platform",
+            "value": "Ethereum"
+        },
+        {
+            "trait_type": "NFT Support",
+            "value": true
+        }
+    ]
+}

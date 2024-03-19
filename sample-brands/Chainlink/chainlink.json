@@ -1,0 +1,19 @@
+{
+    "name": "Chainlink",
+    "description": "Chainlink is a decentralized oracle network that enables smart contracts to securely interact with real-world data, events and payments.",
+    "image": "https://amber-random-peafowl-702.mypinata.cloud/ipfs/QmZKzPaaLR9hDZbuXzdmdT5vWcHBtjwd2VXUd6Vj2v5srT",
+    "attributes": [
+        {
+            "type": "Decentralized Oracle",
+            "category": "Technology"
+        },
+        {
+            "type": "Smart Contract",
+            "category": "Technology"
+        },
+        {
+            "type": "Data Integration",
+            "category": "Technology"
+        }
+    ]
+}

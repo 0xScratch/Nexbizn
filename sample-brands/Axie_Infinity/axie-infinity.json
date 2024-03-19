@@ -1,0 +1,19 @@
+{
+    "name": "Axie Infinity",
+    "description": "Axie Infinity is a popular blockchain-based game where players can collect, breed, and battle digital creatures called Axies.",
+    "image": "https://amber-random-peafowl-702.mypinata.cloud/ipfs/QmbNYwDCUqrjJ3chdARDhcZoLo3tncMGJCviZkx8VQBEbB",
+    "attributes": [
+        {
+            "trait_type": "Game Type",
+            "value": "Collectible"
+        },
+        {
+            "trait_type": "Blockchain",
+            "value": "Ethereum"
+        },
+        {
+            "trait_type": "Genre",
+            "value": "Strategy"
+        }
+    ]
+}
