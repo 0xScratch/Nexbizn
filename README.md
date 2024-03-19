@@ -51,7 +51,7 @@ In simple words, Brands can take this particular NFT on lease by winning up the 
 
 ## Note for the Reviewers
 
-Well, this project do have some good features but they aren't implemented yet due to lack of time as I built it right in the last 2-3 days of Encode hackathon powered by Polkadot Ecosystem.
+Well, this project do have some good features but they aren't implemented yet due to lack of time as I built it right in the last 2-3 days of Encode hackathon powered by Polkadot Ecosystem which ended on 10 March, 2024.
 
 Although, I did start working on it much before but was engaged with !ink boilerplate and other stuff. Due to some issues, errors and lack of help by the community, I had to start right from scratch with [***moonbeam***](https://moonbeam.network) and atleast feeling quite excited that got something to submit (even if not completely implemented) and [learnt a lot](#what-i-learnt) during these 2-3 days.
 
