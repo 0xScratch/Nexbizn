@@ -1,6 +1,6 @@
 # Nexbizn: Own Your Brand's Digital Legacy
 
-***Nexbizn*** is a platform built on **Moonbeam**, a parachain of the Polkadot blockchain, empowering brands to harness the power of NFTs for impactful marketing campaigns. It is made up of two words ***Next*** and ***Business***
+***Nexbizn*** is a platform built on **Near Protocol** empowering brands to harness the power of NFTs for impactful marketing campaigns. It is made up of two words ***Next*** and ***Business***
 
 ## Visual Tour (Pictorial Walkthrough)
 
@@ -51,9 +51,11 @@ In simple words, Brands can take this particular NFT on lease by winning up the 
 
 ## Note for the Reviewers
 
-Well, this project do have some good features but they aren't implemented yet due to lack of time as I built it right in the last 2-3 days.
+Well, this project do have some good features but they aren't implemented yet due to lack of time as I built it right in the last 2-3 days of Encode hackathon powered by Polkadot Ecosystem.
 
 Although, I did start working on it much before but was engaged with !ink boilerplate and other stuff. Due to some issues, errors and lack of help by the community, I had to start right from scratch with [***moonbeam***](https://moonbeam.network) and atleast feeling quite excited that got something to submit (even if not completely implemented) and [learnt a lot](#what-i-learnt) during these 2-3 days.
+
+Now shifting it to Backdrop by cloning the stuff from the [original repo](https://github.com/0xScratch/Nexbizn), making some changes and trying it out on Near Protocol.
 
 Features to implement:
 
