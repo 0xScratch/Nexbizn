@@ -18,7 +18,7 @@ import { useState } from 'react'
 import { utils } from 'ethers'
 import BeatLoader from 'react-spinners/BeatLoader'
 
-const SellToken = ({contract, account, chainId, switchNetwork, MoonbaseAlpha, useContractFunction}) => {
+const SellToken = ({contract, account, chainId, switchNetwork, useContractFunction}) => {
 
   const [value, setValue] = useState(0)
 
@@ -27,8 +27,8 @@ const SellToken = ({contract, account, chainId, switchNetwork, MoonbaseAlpha, us
     event.preventDefault()
     try {
 
-      if (chainId != MoonbaseAlpha.chainId) {
-        await switchNetwork(MoonbaseAlpha)
+      if (chainId != 11155420) {
+        await switchNetwork(11155420)
       }
       send(Number(value))
     } catch (error) {

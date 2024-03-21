@@ -2,24 +2,17 @@
 'use client'
 
 import { ChakraProvider } from '@chakra-ui/react'
-import { DAppProvider, MoonbaseAlpha, Localhost } from '@usedapp/core';
-import { getDefaultProvider } from 'ethers';
+import { DAppProvider, DEFAULT_SUPPORTED_CHAINS } from '@usedapp/core';
+
+import { OptimismSepolia } from './chain';
 
 const config = {
-  readOnlyChainId: MoonbaseAlpha.chainId,
+  readOnlyChainId: OptimismSepolia.chainId,
   readOnlyUrls: {
-    [MoonbaseAlpha.chainId]: getDefaultProvider(
-      'https://moonbase-alpha.blastapi.io/5fbc6157-38f8-481c-a84b-5cf5c431f2bc'
-    ),
+    [OptimismSepolia.chainId]: process.env.NEXT_PUBLIC_HTTPS,
   },
+  networks: [...DEFAULT_SUPPORTED_CHAINS, OptimismSepolia],
 };
-
-// const hardhatConfig = {
-//   readOnlyChainId: Localhost.chainId,
-//   readOnlyUrls: {
-//     [Localhost.chainId]: 'http://127.0.0.1:8545/',
-//   },
-// };
 
 export function Providers({ children }) {
   return (

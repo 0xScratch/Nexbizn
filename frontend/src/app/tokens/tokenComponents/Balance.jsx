@@ -25,8 +25,8 @@ const Balance = ({contract, account}) => {
     
     const balanceData = [
         { label: 'Balance:', value: `${formattedBalance} NEX`, color: 'teal.700' },
-        { label: 'Network', value: 'Moonbase', color: 'green.500' },
-        { label: 'Price per NEX:', value: '0.1 DEV', color: 'pink.700' },
+        { label: 'Network', value: 'Optimism', color: 'green.500' },
+        { label: 'Price per NEX:', value: '0.1 ETH', color: 'pink.700' },
     ]
     
   return (

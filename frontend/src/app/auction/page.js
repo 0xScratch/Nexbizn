@@ -1,6 +1,4 @@
 import AuctionHandler from "./auctionComponents/AuctionHandler"
-import Auction from '../contracts-data/Auction.json'
-const { auctionAddress } = require('../contracts-data/addresses.json')
 
 export default function Auctions() {
     return (

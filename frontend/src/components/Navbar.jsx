@@ -4,7 +4,7 @@ import { useEthers } from '@usedapp/core';
 import React from 'react';
 import { Image } from '@chakra-ui/next-js';
 import { Flex, Spacer } from '@chakra-ui/react'
-import { Button, ButtonGroup } from '@chakra-ui/react'
+import { Button } from '@chakra-ui/react'
 import { Tabs, TabList, Tab, TabIndicator } from '@chakra-ui/react'
 import Link from 'next/link';
 import { useEffect, useState } from 'react';

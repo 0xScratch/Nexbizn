@@ -13,7 +13,7 @@ import {
 } from '@chakra-ui/react'
 
 import { Box, Button } from '@chakra-ui/react'
-// import { useEthers, useContractFunction, MoonbaseAlpha } from '@usedapp/core'
+// import { useEthers, useContractFunction } from '@usedapp/core'
 import { useState } from 'react'
 import { utils } from 'ethers'
 import BeatLoader from 'react-spinners/BeatLoader'
@@ -21,7 +21,7 @@ import BeatLoader from 'react-spinners/BeatLoader'
 // TODO: Make the Inputfield empty as the focus goes away!
 // TODO: display messages when someone buys or sell the tokens
 
-const BuyToken = ({contract, account, chainId, switchNetwork, MoonbaseAlpha, useContractFunction}) => {
+const BuyToken = ({contract, account, chainId, switchNetwork, useContractFunction}) => {
   const [value, setValue] = useState(0)
 
   const {state, send} = useContractFunction(contract, 'purchaseTokens')
@@ -29,8 +29,8 @@ const BuyToken = ({contract, account, chainId, switchNetwork, MoonbaseAlpha, use
     event.preventDefault()
     try {
 
-      if (chainId != MoonbaseAlpha.chainId) {
-        await switchNetwork(MoonbaseAlpha)
+      if (chainId != 11155420) {
+        await switchNetwork(11155420)
       }
       send(Number(value), {value: utils.parseEther((Number(value) * 0.1).toString())})
     } catch (error) {

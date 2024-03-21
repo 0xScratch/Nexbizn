@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Box, Button, Input, Text, Modal, ModalOverlay, ModalContent, ModalHeader, ModalBody, ModalCloseButton } from "@chakra-ui/react";
-import { useEthers, useContractFunction, MoonbaseAlpha } from '@usedapp/core';
+import { useEthers, useContractFunction } from '@usedapp/core';
 import { Contract } from 'ethers';
 import Auction from './Auction.json';
 const { auctionAddress } = require('./addresses.json');
@@ -18,13 +18,13 @@ const AuctionHandler = () => {
   const { account, chainId, switchNetwork } = useEthers();
   const contract = new Contract(auctionAddress, Auction.abi)
 
-  const { state, send } = useContractFunction(contract, 'winnerDetails', {chainId: MoonbaseAlpha.chainId, privateKey: process.env.PRIVATE_KEY});
+  const { state, send } = useContractFunction(contract, 'winnerDetails', {chainId: 11155420, privateKey: process.env.PRIVATE_KEY});
   const { state: state1, send: send1} = useContractFunction(contract, 'mintNFT')
 
   const handleWinnerDetails = async () => {
     try {
-      if (chainId != MoonbaseAlpha.chainId) {
-        await switchNetwork(MoonbaseAlpha);
+      if (chainId != 11155420) {
+        await switchNetwork(11155420);
       }
       send(localStorage.getItem('currentWinner'), localStorage.getItem('highestBid'));
     } catch (error) {
@@ -34,8 +34,8 @@ const AuctionHandler = () => {
 
   const handleMintFunction = async () => {
     try {
-      if (chainId != MoonbaseAlpha.chainId) {
-        await switchNetwork(MoonbaseAlpha);
+      if (chainId != 11155420) {
+        await switchNetwork(11155420);
       }
       send1();
     } catch (error) {

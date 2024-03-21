@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect, useState } from "react";
 import { Box, Heading, Text, Input, Button } from "@chakra-ui/react";
-import { useEthers, useContractFunction, MoonbaseAlpha } from "@usedapp/core";
+import { useEthers, useContractFunction } from "@usedapp/core";
 import { Contract } from "ethers";
 import Auction from "../app/contracts-data/Auction.json";
 
@@ -30,8 +30,8 @@ const HomePage = () => {
   const handleRegister = async (event) => {
     event.preventDefault();
     try {
-      if (chainId != MoonbaseAlpha.chainId) {
-        await switchNetwork(MoonbaseAlpha);
+      if (chainId != 11155420) {
+        await switchNetwork(11155420);
       }
       send(uri);
     } catch (error) {
