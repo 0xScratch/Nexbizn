@@ -18,7 +18,6 @@
   - [Learnings and Tips](#learnings-and-tips)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Why Nexbizn?
 
