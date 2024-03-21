@@ -18,7 +18,7 @@ const AuctionHandler = () => {
   const { account, chainId, switchNetwork } = useEthers();
   const contract = new Contract(auctionAddress, Auction.abi)
 
-  const { state, send } = useContractFunction(contract, 'winnerDetails', {chainId: 11155420, privateKey: process.env.PRIVATE_KEY});
+  const { state, send } = useContractFunction(contract, 'winnerDetails', {chainId: 11155420, privateKey: process.env.NEXT_PUBLIC_PRIVATE_KEY});
   const { state: state1, send: send1} = useContractFunction(contract, 'mintNFT')
 
   const handleWinnerDetails = async () => {

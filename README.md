@@ -1,6 +1,6 @@
 # Nexbizn: Own Your Brand's Digital Legacy
 
-***Nexbizn*** is a platform built on **Near Protocol** empowering brands to harness the power of NFTs for impactful marketing campaigns. It is made up of two words ***Next*** and ***Business***
+***Nexbizn*** is a platform built on **Optimism** empowering brands to harness the power of NFTs for impactful marketing campaigns. It is made up of two words ***Next*** and ***Business***
 
 ## Visual Tour (Pictorial Walkthrough)
 
@@ -54,7 +54,7 @@ Well, this project do have some good features but they aren't implemented yet du
 
 Although, I did start working on it much before but was engaged with !ink boilerplate and other stuff. Due to some issues, errors and lack of help by the community, I had to start right from scratch with [***moonbeam***](https://moonbeam.network) and atleast feeling quite excited that got something to submit (even if not completely implemented) and [learnt a lot](#what-i-learnt) during these 2-3 days.
 
-Now shifting it to Backdrop by cloning the stuff from the [original repo](https://github.com/0xScratch/Nexbizn), making some changes and trying it out on Near Protocol.
+Now shifting it to Backdrop by cloning the stuff from the [original repo](https://github.com/0xScratch/Nexbizn), making some changes and trying it out on Optimism.
 
 Features to implement:
 
@@ -88,7 +88,7 @@ To get started with Nexbizn, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/0xScratch/Nexbizn.git
+    git clone https://github.com/0xScratch/Nexbizn-Backdrop.git
     ```
 
 2. Install the required dependencies:
@@ -115,13 +115,13 @@ To get started with Nexbizn, follow these steps:
     - .env:
 
         ```env
-            PRIVATE_KEY="YOUR_PRIVATE_KEY"
+            NEXT_PUBLIC_PRIVATE_KEY="YOUR_PRIVATE_KEY"
         ```
 
-5. Deploy the contracts to the Moonbase Alpha testnet:
+5. Deploy the contracts to the Optimism Sepolia testnet:
 
     ```bash
-    npx hardhat run scripts/deploy.js --network moonbase
+    npx hardhat run scripts/deploy.js --network optimism
     ```
 
 6. Note the contract addresses and update the `addresses.json` file in the `frontend` directory or wherever you find it. Also, update the files such as `NexToken.json`, `NexNFT.json` and `Auction.json` in the `frontend` directory. Just head to the `artifacts` section in the root of the project, pick up the files and replace them with the existing ones in the `frontend` directory.
