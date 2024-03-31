@@ -2,6 +2,11 @@
 
 ***Nexbizn*** is a platform built on **Optimism** empowering brands to harness the power of NFTs for impactful marketing campaigns. It is made up of two words ***Next*** and ***Business***
 
+## Achievements
+
+- One of the winners of the ***"Polkadot Hackathon"*** held by [Encode club](https://www.encode.club). It was a great experience and I learnt a lot during this hackathon. Thanks to the team for organizing such a great event!
+- Launched on Optimism network during [Backdrop Build V3](https://backdropbuild.com/)
+
 ## Visual Tour (Pictorial Walkthrough)
 
 !["Home Page"](/frontend/public/first.png)
