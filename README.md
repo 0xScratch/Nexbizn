@@ -4,7 +4,7 @@
 
 ## Achievements
 
-- One of the winners of the ***"Polkadot Hackathon"*** held by [Encode club](https://www.encode.club). It was a great experience and I learnt a lot during this hackathon. Thanks to the team for organizing such a great event!
+- One of the winners of the ***"Polkadot Hackathon"*** held by [Encode club](https://www.encode.club). It was a great experience and I learned a lot during this hackathon. Thanks to the team for organizing such a great event!
 - Launched on Optimism network during [Backdrop Build V3](https://backdropbuild.com/)
 
 ## Visual Tour (Pictorial Walkthrough)
@@ -18,7 +18,7 @@
 - [Why Nexbizn?](#why-nexbizn)
 - [How Nexbizn Works?](#how-nexbizn-works)
 - [Note for the Reviewers](#note-for-the-reviewers)
-- [What I learnt](#what-i-learnt)
+- [What I learned](#what-i-learned)
   - [Mistakes](#mistakes)
   - [Learnings and Tips](#learnings-and-tips)
 - [Getting Started](#getting-started)
@@ -28,13 +28,13 @@
 
 We know NFTs are everywhere, like bridging real world assets to the digital world, owning something unique and rare, and the ability to prove ownership of digital assets. But, what if we could use NFTs to create a ***Hoarding*** type of thing as it happens with all those brands we see on buildings, billboards, and other places. and they pay for it right?
 
-That's where Nexbizn comes in. Web3 brands deserve it's place, not necessarily on those physical places (if that happened more often, people be like - "Crypto took over") but on the digital world, where they can be seen by everyone, and brands could push their products and services to the people who are interested in them.
+That's where Nexbizn comes in. Web3 brands deserve its place, not necessarily on those physical places (if that happened more often, people be like - "Crypto took over") but on the digital world, where they can be seen by everyone, and brands could push their products and services to the people who are interested in them.
 
 In simple words, Brands can take this particular NFT on lease by winning up the auctions and use it for their marketing campaigns, and the owner of the NFT(i.e platform itself) gets paid for it. It's a win-win situation for both the brand and the platform.
 
 ## How Nexbizn Works?
 
-1. ***Registeration***: Brands can register themselves by dropping in the *tokenUri* or *metadata* of their brand's digital assets. One can try [**Pinata**](https://www.pinata.cloud) or [**IPFS**](https://ipfs.io) for storing the metadata and drop it's url right in the registration box. Make sure the metadata is in JSON format and contains the following fields:
+1. ***Registration***: Brands can register themselves by dropping in the *tokenUri* or *metadata* of their brand's digital assets. One can try [**Pinata**](https://www.pinata.cloud) or [**IPFS**](https://ipfs.io) for storing the metadata and drop its url right in the registration box. Make sure the metadata is in JSON format and contains the following fields:
     - name
     - description
     - image
@@ -44,7 +44,7 @@ In simple words, Brands can take this particular NFT on lease by winning up the 
 2. ***Buying/Selling Tokens***: This platform uses **NEX** tokens for bidding in auctions. Brands can buy these tokens from the platform and if won the auction, the tokens will be burned right away. Rest of the participants can sell them if they are willing to, cuz these tokens have no monetary value outside the platform.
 
 3. ***Auctions***: Usually, the auctions will be held autonomously like every 24 hours and till then participants can register themselves, or buy up some tokens or just wait. Make sure the data collected in a particular auction get erased and participants need to register again for the next one (although, this gives me an idea of having a valid profile for the participants, but that's for later). Now let's discuss the rules and how this auction really works:
-    - The auction will be held in a **Unpermissioned Candle Style**, meaning the participants can see the highest bid and the time left for the auction to end.
+    - The auction will be held in an **Unpermissioned Candle Style**, meaning the participants can see the highest bid and the time left for the auction to end.
     - Suppose the auction is to be held for 1 hour, then whole auction will be divided in 3600 slots (1 slot = 1 second). and will keep noting which participant has the highest bid at a particular slot.
     - As the auction ends, the platform will randomly pick up a slot and the participant whose name on it will win the auction.
     - It's like more the slots you acquire by bidding high in a continuous way, more the chances of winning the auction. and sometimes, even if you bid high most of the times, you might not win the auction. It's all about luck and strategy. So plan well!
@@ -55,19 +55,19 @@ In simple words, Brands can take this particular NFT on lease by winning up the 
 
 ## Note for the Reviewers
 
-Well, this project do have some good features but they aren't implemented yet due to lack of time as I built it right in the last 2-3 days of Encode hackathon powered by Polkadot Ecosystem which ended on 10 March, 2024.
+Well, this project does have some good features but they aren't implemented yet due to lack of time as I built it right in the last 2-3 days of Encode hackathon powered by Polkadot Ecosystem which ended on 10 March, 2024.
 
-Although, I did start working on it much before but was engaged with !ink boilerplate and other stuff. Due to some issues, errors and lack of help by the community, I had to start right from scratch with [***moonbeam***](https://moonbeam.network) and atleast feeling quite excited that got something to submit (even if not completely implemented) and [learnt a lot](#what-i-learnt) during these 2-3 days.
+Although, I did start working on it much before but was engaged with !ink boilerplate and other stuff. Due to some issues, errors and lack of help by the community, I had to start right from scratch with [***moonbeam***](https://moonbeam.network) and at least feeling quite excited that got something to submit (even if not completely implemented) and [learned a lot](#what-i-learned) during these 2-3 days.
 
 Now shifting it to Backdrop by cloning the stuff from the [original repo](https://github.com/0xScratch/Nexbizn), making some changes and trying it out on Optimism.
 
 Features to implement:
 
 1. Can create profiles for the participants such that they don't need to register again and again for the next auctions.
-2. Right now, the auction tab is not effective, really buggy and not implementing that exact system I wrote about. This need to be fixed.
+2. Right now, the auction tab is not effective, really buggy and not implementing that exact system I wrote about. This needs to be fixed.
 3. Extraction of data from the metadata and aligning it right on our NFT.
 
-## What I learnt
+## What I learned
 
 As it was my first hackathon, I do realised some mistakes and teachings which could help someone move ahead including me. This section will be divided in two parts - **Mistakes** and **Learnings and Tips** I encountered on the way!
 
