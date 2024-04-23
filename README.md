@@ -59,7 +59,7 @@ Well, this project does have some good features but they aren't implemented yet 
 
 Although, I did start working on it much before but was engaged with !ink boilerplate and other stuff. Due to some issues, errors and lack of help by the community, I had to start right from scratch with [***moonbeam***](https://moonbeam.network) and at least feeling quite excited that got something to submit (even if not completely implemented) and [learned a lot](#what-i-learned) during these 2-3 days.
 
-Now shifting it to Backdrop by cloning the stuff from the [original repo](https://github.com/0xScratch/Nexbizn), making some changes and trying it out on Optimism.
+Now shifting it to Backdrop by cloning the stuff from the [original repo](https://github.com/0xScratch/Nexbizn_moonbeam), making some changes and trying it out on Optimism.
 
 Features to implement:
 
