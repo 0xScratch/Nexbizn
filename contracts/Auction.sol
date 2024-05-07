@@ -62,7 +62,7 @@ contract Auction {
         highestBid = _highestBid;
     }
 
-    // pariticipant registration
+    // participant registration
     function register(string memory _tokenUri) public {
         require(msg.sender != address(0));
         participants.push(msg.sender);

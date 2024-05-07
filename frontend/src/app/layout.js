@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 
 export const metadata = {
   title: "NexBizn",
-  description: "Platform for advetising and marketing businesses on NFTs",
+  description: "Platform for advertising and marketing businesses on NFTs",
 };
 
 export default function RootLayout({ children }) {
