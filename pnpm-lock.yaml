@@ -17,24 +17,21 @@ importers:
     devDependencies:
       '@nomicfoundation/hardhat-ethers':
         specifier: ^3.0.5
-        version: 3.0.8(ethers@6.13.5)(hardhat@3.1.12(supports-color@7.2.0))(supports-color@7.2.0)
+        version: 3.0.8(ethers@6.17.0)(hardhat@3.1.12(supports-color@7.2.0))(supports-color@7.2.0)
       '@nomicfoundation/hardhat-ignition-ethers':
         specifier: ^3.0.9
-        version: 3.0.9(@nomicfoundation/hardhat-ethers@3.0.8(ethers@6.13.5)(hardhat@3.1.12(supports-color@7.2.0))(supports-color@7.2.0))(@nomicfoundation/hardhat-ignition@3.1.8(@nomicfoundation/hardhat-verify@3.1.0(hardhat@3.1.12(supports-color@7.2.0)))(hardhat@3.1.12(supports-color@7.2.0)))(@nomicfoundation/hardhat-verify@3.1.0(hardhat@3.1.12(supports-color@7.2.0)))(@nomicfoundation/ignition-core@3.1.9)(ethers@6.13.5)(hardhat@3.1.12(supports-color@7.2.0))(supports-color@7.2.0)
+        version: 3.0.9(@nomicfoundation/hardhat-ethers@3.0.8(ethers@6.17.0)(hardhat@3.1.12(supports-color@7.2.0))(supports-color@7.2.0))(@nomicfoundation/hardhat-ignition@3.1.8(@nomicfoundation/hardhat-verify@3.1.0(hardhat@3.1.12(supports-color@7.2.0)))(hardhat@3.1.12(supports-color@7.2.0)))(@nomicfoundation/hardhat-verify@3.1.0(hardhat@3.1.12(supports-color@7.2.0)))(@nomicfoundation/ignition-core@3.1.9)(ethers@6.17.0)(hardhat@3.1.12(supports-color@7.2.0))(supports-color@7.2.0)
       '@nomicfoundation/hardhat-toolbox':
         specifier: ^7.0.0
         version: 7.0.0
       ethers:
-        specifier: ^6.11.1
-        version: 6.13.5
+        specifier: ^6.17.0
+        version: 6.17.0
       hardhat:
         specifier: ^3.1.12
         version: 3.1.12(supports-color@7.2.0)
 
 packages:
-
-  '@adraffy/ens-normalize@1.10.1':
-    resolution: {integrity: sha512-96Z2IP3mYmF1Xg2cDm8f1gWGf/HUVedQ3FMifV4kG/PQ4yEP51xDtRAEfhVNt5f/uzpNkZHwWQuUcu6D6K+Ekw==}
 
   '@adraffy/ens-normalize@1.11.1':
     resolution: {integrity: sha512-nhCBV3quEgesuf7c7KYfperqSS14T8bYuvJ8PcLJp6znkZpFc0AuW4qBtr8eKVyPPe/8RSr7sglCWPU5eaxwKQ==}
@@ -743,10 +740,6 @@ packages:
   ethereum-cryptography@2.2.1:
     resolution: {integrity: sha512-r/W8lkHSiTLxUxW8Rf3u4HGB0xQweG2RyETjywylKZSzLWoWAijRz8WCuOtJ6wah+avllXBqZuk29HCCvhEIRg==}
 
-  ethers@6.13.5:
-    resolution: {integrity: sha512-+knKNieu5EKRThQJWwqaJ10a6HE9sSehGeqWN65//wE7j47ZpFhKAnHB/JJFibwwg61I/koxaPsXbXpD/skNOQ==}
-    engines: {node: '>=14.0.0'}
-
   ethers@6.17.0:
     resolution: {integrity: sha512-BpyrpIPJ3ydEVow8zGaz1DuPS7YU8DcWxuBnY9a0UA/lvAPwrMr+EPXsfrul628SRaekPNeIM4UFh/91GWZang==}
     engines: {node: '>=14.0.0'}
@@ -1006,18 +999,6 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  ws@8.17.1:
-    resolution: {integrity: sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==}
-    engines: {node: '>=10.0.0'}
-    peerDependencies:
-      bufferutil: ^4.0.1
-      utf-8-validate: '>=5.0.2'
-    peerDependenciesMeta:
-      bufferutil:
-        optional: true
-      utf-8-validate:
-        optional: true
-
   ws@8.19.0:
     resolution: {integrity: sha512-blAT2mjOEIi0ZzruJfIhb3nps74PRWTCz1IjglWEEpQl5XS/UNama6u2/rjFkDDouqr4L67ry+1aGIALViWjDg==}
     engines: {node: '>=10.0.0'}
@@ -1046,8 +1027,6 @@ packages:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
 snapshots:
-
-  '@adraffy/ens-normalize@1.10.1': {}
 
   '@adraffy/ens-normalize@1.11.1': {}
 
@@ -1444,23 +1423,23 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@nomicfoundation/hardhat-ethers@3.0.8(ethers@6.13.5)(hardhat@3.1.12(supports-color@7.2.0))(supports-color@7.2.0)':
+  '@nomicfoundation/hardhat-ethers@3.0.8(ethers@6.17.0)(hardhat@3.1.12(supports-color@7.2.0))(supports-color@7.2.0)':
     dependencies:
       debug: 4.4.0(supports-color@7.2.0)
-      ethers: 6.13.5
+      ethers: 6.17.0
       hardhat: 3.1.12(supports-color@7.2.0)
       lodash.isequal: 4.5.0
     transitivePeerDependencies:
       - supports-color
 
-  '@nomicfoundation/hardhat-ignition-ethers@3.0.9(@nomicfoundation/hardhat-ethers@3.0.8(ethers@6.13.5)(hardhat@3.1.12(supports-color@7.2.0))(supports-color@7.2.0))(@nomicfoundation/hardhat-ignition@3.1.8(@nomicfoundation/hardhat-verify@3.1.0(hardhat@3.1.12(supports-color@7.2.0)))(hardhat@3.1.12(supports-color@7.2.0)))(@nomicfoundation/hardhat-verify@3.1.0(hardhat@3.1.12(supports-color@7.2.0)))(@nomicfoundation/ignition-core@3.1.9)(ethers@6.13.5)(hardhat@3.1.12(supports-color@7.2.0))(supports-color@7.2.0)':
+  '@nomicfoundation/hardhat-ignition-ethers@3.0.9(@nomicfoundation/hardhat-ethers@3.0.8(ethers@6.17.0)(hardhat@3.1.12(supports-color@7.2.0))(supports-color@7.2.0))(@nomicfoundation/hardhat-ignition@3.1.8(@nomicfoundation/hardhat-verify@3.1.0(hardhat@3.1.12(supports-color@7.2.0)))(hardhat@3.1.12(supports-color@7.2.0)))(@nomicfoundation/hardhat-verify@3.1.0(hardhat@3.1.12(supports-color@7.2.0)))(@nomicfoundation/ignition-core@3.1.9)(ethers@6.17.0)(hardhat@3.1.12(supports-color@7.2.0))(supports-color@7.2.0)':
     dependencies:
       '@nomicfoundation/hardhat-errors': 3.0.8(supports-color@7.2.0)
-      '@nomicfoundation/hardhat-ethers': 3.0.8(ethers@6.13.5)(hardhat@3.1.12(supports-color@7.2.0))(supports-color@7.2.0)
+      '@nomicfoundation/hardhat-ethers': 3.0.8(ethers@6.17.0)(hardhat@3.1.12(supports-color@7.2.0))(supports-color@7.2.0)
       '@nomicfoundation/hardhat-ignition': 3.1.8(@nomicfoundation/hardhat-verify@3.1.0(hardhat@3.1.12(supports-color@7.2.0)))(hardhat@3.1.12(supports-color@7.2.0))
       '@nomicfoundation/hardhat-verify': 3.1.0(hardhat@3.1.12(supports-color@7.2.0))
       '@nomicfoundation/ignition-core': 3.1.9
-      ethers: 6.13.5
+      ethers: 6.17.0
       hardhat: 3.1.12(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
@@ -1712,19 +1691,6 @@ snapshots:
       '@noble/hashes': 1.4.0
       '@scure/bip32': 1.4.0
       '@scure/bip39': 1.3.0
-
-  ethers@6.13.5:
-    dependencies:
-      '@adraffy/ens-normalize': 1.10.1
-      '@noble/curves': 1.2.0
-      '@noble/hashes': 1.3.2
-      '@types/node': 22.7.5
-      aes-js: 4.0.0-beta.5
-      tslib: 2.7.0
-      ws: 8.17.1
-    transitivePeerDependencies:
-      - bufferutil
-      - utf-8-validate
 
   ethers@6.17.0:
     dependencies:
@@ -2004,8 +1970,6 @@ snapshots:
   undici@6.28.1: {}
 
   util-deprecate@1.0.2: {}
-
-  ws@8.17.1: {}
 
   ws@8.19.0: {}
 
