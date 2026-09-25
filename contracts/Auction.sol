@@ -78,19 +78,22 @@ contract Auction {
         nexToken.sellToken(msg.sender, highestBid * 1 ether);
         
         uint i;
-        uint parcLength = participants.length;
-        for (; i < parcLength;) {
+
+        for (i = 0; i < participants.length; i++) {
             if (winner == participants[i]) {
                 break;
             }
         }
+
+        require(i < participants.length, "winner not found");
+
+        string memory uri = tokenUris[i];
 
         // burn NFT
         uint id = nexNFT.prevTokenId();
         nexNFT.burn(id);
 
         // mint NFT
-        string memory uri = tokenUris[i];
         nexNFT.safeMint(address(this), uri);
 
         // Transfer eth to owner
